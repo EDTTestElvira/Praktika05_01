@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e7c751-c15b-41b2-ac81-98b9a7d4d6ff">
+  <producedTypes>
+    <objectType typeId="bf4c062b-32ce-4b77-a677-189540492d09" valueTypeId="3c0d0b0e-94e2-4b73-b067-fe08bb12392a"/>
+    <refType typeId="97153ed8-1631-450c-9ae2-9a0cfc378ea2" valueTypeId="13318d92-0603-4020-bd5c-b73581cc53dd"/>
+    <selectionType typeId="52cf65c0-b3bf-4446-82ef-8e71518780d1" valueTypeId="ae6a679b-d5d1-4349-8f6b-b61bc5695f1e"/>
+    <listType typeId="38785196-41ef-4df2-9981-6707de0bb3e6" valueTypeId="dfc78f63-4b75-4c20-938f-95e884d9ec93"/>
+    <managerType typeId="fc5a4b28-9fe9-4652-816b-e8e16dff27be" valueTypeId="e40f9276-433f-41bf-baef-c14a4a9ec4af"/>
+  </producedTypes>
+  <name>DocSale</name>
+  <synonym>
+    <key>ru</key>
+    <value>Doc sale</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.DocSale.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="9fc6f5e3-5ed2-4d75-9354-a27cb49c44ce">
+    <producedTypes>
+      <objectType typeId="3c3a0674-f5b2-475b-aea2-9cd17e1254c9" valueTypeId="7b6bf6dc-da2b-48a4-8d8d-4bb59e216480"/>
+      <rowType typeId="6b70bc70-92ef-47b2-9365-69a9e8e4cc39" valueTypeId="0b790535-557e-4317-82c5-c5fd042ee4fa"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>ru</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="6412f510-dcfc-4f65-abf0-dfd0e37c6245">
+      <name>Product</name>
+      <synonym>
+        <key>ru</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="84789105-aea4-4213-a97c-412466c72a3b">
+      <name>Quantity</name>
+      <synonym>
+        <key>ru</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e1e8862-b81f-4315-bbd8-32bea365d511">
+      <name>Price</name>
+      <synonym>
+        <key>ru</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7fc88c5a-af57-48fd-b4b8-82088dc561eb">
+      <name>Sum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sum</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

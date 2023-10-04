@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5830e71-2916-4d9b-bdf4-46704b7b7383">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d0fa52ca-9376-4a88-8010-a08b8d697f68"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3696dde7-6341-47ac-a813-6d49625e962e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b78fdc7e-dfcf-4036-aba6-95b0c2395d99"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="52c44d59-0eb4-46e0-b117-b5f89bfaf31c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c2d5814e-9b9e-4cba-864f-061133c77b55"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="794be232-e821-446a-ba13-5b888bf36e85"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9cbcad7b-722e-4341-9178-42d6361f7b09"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="91c775fa-3362-4fb8-8438-821f048b6678">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Организаци</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.DocSale</documents>
+</mdclass:Configuration>

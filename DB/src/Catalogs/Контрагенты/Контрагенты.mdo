@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea76a12e-1e27-4ceb-966a-8d1c62d6d02b">
+  <producedTypes>
+    <objectType typeId="c9b124d4-7114-4c7b-b7c2-27b03aae7b20" valueTypeId="fb15c03c-f6f5-448f-a3b9-8bfff8ffff8d"/>
+    <refType typeId="c492a2c1-1b59-49ab-a22f-e2c8705921c4" valueTypeId="012472e2-4532-4c75-9fe9-acbdee553f37"/>
+    <selectionType typeId="472616a7-0619-4fe6-ada3-da9e88b8e560" valueTypeId="9bc40891-aa2a-471a-a034-2d96bdf82579"/>
+    <listType typeId="251c2d70-1366-4ab0-ae05-591222fa0382" valueTypeId="799e425f-e407-4621-93d6-559b53ca8420"/>
+    <managerType typeId="07cb880d-82af-450a-92c8-69a8f416d270" valueTypeId="f92f7ede-a4d0-4f30-b790-c5fa91f43f63"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
